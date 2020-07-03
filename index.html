@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    tambro francisca
+
+</title>
+
+<script>
+    
+    //var n = prompt("what is your name");
+   // alert("Hello" + n);
+   // console.log(n);
+   //var num1 = prompt("Enter 1st number");
+   //var num2 = prompt("Enter 2nd number");
+  // var sum  = num1 + num2;
+
+   //var firstname = "Tambro";
+    //var lastname = "Francisca";
+
+//var catchme = 10 + 15 / 3 - 8 * 2;
+//alert(catchme);
+
+    //alert(firstname + "  " + lastname);
+
+    //var gender = prompt("Gender");
+    //if (gender == "female") {
+        //alert("welcome to the program");
+
+   // }else {
+        //alert("sorry, for ladies only!");
+
+    // }
+// function fullname(){
+//     let first = prompt("first name");
+//     let last = prompt("last name");
+//     alert( "full name: "+ first + " " + last);
+    
+
+
+// }
+// fullname();
+// var myname= "Tambro Francisca";
+
+// let age = prompt ("what is your age. type number");
+// if(age >= 17) {
+//     alert("welcome to the bar");
+// }else{
+//     alert("children not allowed in here!");
+// }
+// let age = prompt ("how old are you. type number");
+// if(age >= 17) {
+//     alert("welcome to the club");
+// }else{
+//     alert("matured only!");
+// }
+     
+function dectector(name,year_of_brith,drink){
+    let min_age =17;
+    let age = 2020 - year_of_brith;
+if(age <= min_age && drink == "beer" ) {
+    alert("sorry, you are below the minimum age");
+} else if (drink != "beer"){
+    alert("oya, drink!");
+}else {
+    alert("cheers to beer & life");
+}
+
+
+}
+    
+// let userName = prompt("what is your name?");
+// let year_of_brith = prompt("input year of brith");
+// let drink = prompt("drink type");
+
+//dectector(userName, year_of_brith, drink);
+    
+
+
+
+        
+
+
+    
+</script>
+
+
+<link rel="stylesheet" href="styles.css" />
+         
+
+
+
+
+
+</head>
+<body>
+
+<a href="about.html">
+
+about us
+
+
+
+</a>
+
+<h1 class="tambro msg">Welcome to my webpage</h1>
+<p>
+    This is my first web project. Hurrayy!!!!
+</p>
+
+<p class="msg">list of fruits</p>
+<ul>
+<li>Orange</li>
+<li>Mango</li>
+<li>Apple</li>
+</ul>
+
+
+
+
+<hr/>
+<h1 style="color:red;">about my self</h1>
+<p style="font-size: x-large;">francisca tambro is my name, am a young motivated lady who love to read and explore new things.</p>
+<p class="msg">these are the things i like</p>
+<ul>
+<li>Music</li>
+<li>Reading</li>
+<li>Exploring new things</li>
+<li>Cooking</li>
+<li>Watching movies</li>
+<li class="tambro">sports</li>
+</ul>
+
+<img src="puppy.jpg" alt="" />
+
+<br />
+<br />
+<br />
+
+<div id="greetText"></div>
+
+<input id="nameInput" type="text" placeholder="enter your name" />
+<button id="greetBtn">Greet</button>
+
+<script>
+let btn = document.getElementById("greetBtn");
+btn.addEventListener("click", function () {
+    //alert("button clicked");
+
+let msg = document.getElementById("greetText");
+let name = document.getElementById("nameInput");
+
+let val = name.value;
+msg.innerText = "Hello, " + val;
+});
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
+
